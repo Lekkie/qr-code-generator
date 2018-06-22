@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="75ea6594-0a3a-4718-9d1f-fbf5e2fda6c4" name="Default" comment="" />
+    <list default="true" id="75ea6594-0a3a-4718-9d1f-fbf5e2fda6c4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/TestDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/avantir/qrcode/EmvQrTlv.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/avantir/qrcode/EmvQrTlv.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EmvQrTlv.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmvQrTlv.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+            <state relative-caret-position="389">
+              <caret line="594" selection-start-line="594" selection-end-line="594" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -31,11 +37,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdditionalDataTemplate.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/AdditionalDataTemplate.java">
+      <file leaf-file-name="TestDriver.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/TestDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+            <state relative-caret-position="143">
+              <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,6 +62,9 @@
     <findStrings>
       <find>leftpa</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -385,8 +397,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvTlv.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/MerchAcctInfoTemplate.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/ArcaMerchAcctInfoTemplate.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/AdditionalDataTemplate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/avantir/qrcode/TestDriver.java" />
       </list>
     </option>
   </component>
@@ -401,8 +414,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,7 +454,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,7 +479,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EmvQrTlv">
+  <component name="RunManager" selected="Application.TestDriver">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -483,6 +496,17 @@
     </configuration>
     <configuration name="EmvQrTlv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.avantir.qrcode.EmvQrTlv" />
+      <module name="qr-code_main" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.avantir.qrcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TestDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.avantir.qrcode.TestDriver" />
       <module name="qr-code_main" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -551,9 +575,11 @@
     <list>
       <item itemvalue="Application.EMV" />
       <item itemvalue="Application.EmvQrTlv" />
+      <item itemvalue="Application.TestDriver" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDriver" />
         <item itemvalue="Application.EmvQrTlv" />
         <item itemvalue="Application.EMV" />
       </list>
@@ -584,12 +610,12 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22299652" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22299652" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26702034" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2714412" />
       <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -623,6 +649,23 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/AdditionalDataTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8460">
@@ -757,15 +800,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/AdditionalDataTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="630">
           <caret line="42" column="67" selection-start-line="42" selection-start-column="67" selection-end-line="42" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/EmvQrTlv.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="51" column="29" lean-forward="true" selection-start-line="51" selection-start-column="29" selection-end-line="51" selection-end-column="29" />
+        <state relative-caret-position="389">
+          <caret line="594" selection-start-line="594" selection-end-line="594" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/avantir/qrcode/TestDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="41" column="67" selection-start-line="41" selection-start-column="67" selection-end-line="41" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
