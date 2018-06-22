@@ -1,13 +1,10 @@
-package com.avantir.qrcode;
+package com.avantir.qrcode.generator;
 
-import net.glxn.qrgen.core.image.ImageType;
-import net.glxn.qrgen.javase.QRCode;
+import com.avantir.qrcode.utils.StringUtils;
 
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.*;
 
-public class EmvQrTlv extends EmvTlv{
+public class EmvQrTlv extends EmvTlv {
 
     private PaymentSystem paymentSystem;
     private final String version;
@@ -592,6 +589,31 @@ public class EmvQrTlv extends EmvTlv{
         return paymentSystem;
     }
 
+
+
+
+
+    private static final String PAYLOAD_FORMAT_INDICATOR = "00"; //M, 02 (N)
+    private static final String POINT_OF_INITIATION_METHOD = "01"; //O, 02 (N)
+    private static final String MERCHANT_ACCOUNT_INFORMATION_START = "02"; //M, up to 99 (ANS)
+    private static final String MERCHANT_ACCOUNT_INFORMATION_END = "51"; //M, up to 99 (ANS)
+    private static final String MERCHANT_CATEGORY_CODE = "52"; //M, 04 (N)
+    private static final String TRANSACTION_CURRENCY = "53"; //M, 03 (N)
+    private static final String TRANSACTION_AMOUNT = "54"; // C, up to 13, (ANS)
+    private static final String TIP_OR_CONVENIENCE_INDICATOR = "55"; //O, 02 (N)
+    private static final String VALUE_OF_CONVENIENCE_FEE_FIXED = "56"; // C, up to 13 (ANS)
+    private static final String VALUE_OF_CONVENIENCE_FEE_PERCENTAGE = "57"; // C, up to 05 (ANS)
+    private static final String COUNTRY_CODE = "58"; // M, 02 (ANS)
+    private static final String MERCHANT_NAME = "59"; // M, up to 25 (ANS)
+    private static final String MERCHANT_CITY = "60"; // M, up to 15 (ANS)
+    private static final String POST_CODE = "61"; // O, up to 10 (ANS)
+    private static final String ADDITIONAL_DATA_TEMPLATE = "62"; // O, up to 99 (S)
+    private static final String MERCHANT_INFORMATION_LANGUAGE_TEMPLATE = "64"; // O, up to 99 (S)
+    private static final String RFU_FOR_EMVCO_START = "65"; //O, up to 99 (S)
+    private static final String RFU_FOR_EMVCO_END = "79"; //O, up to 99 (S)
+    private static final String UNRESERVED_TEMPLATES_START = "80"; //O, up to 99 (S)
+    private static final String UNRESERVED_TEMPLATES_END = "99"; //O, up to 99 (S)
+    private static final String CYCLIC_REDUNDANCY_CHECK = "63";//M, 04 (ANS)
 
 
 }

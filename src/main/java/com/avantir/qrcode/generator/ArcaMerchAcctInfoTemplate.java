@@ -1,8 +1,10 @@
-package com.avantir.qrcode;
+package com.avantir.qrcode.generator;
+
+import com.avantir.qrcode.utils.StringUtils;
 
 import java.util.Map;
 
-public class ArcaMerchAcctInfoTemplate  extends EmvTlv{
+public class ArcaMerchAcctInfoTemplate  extends EmvTlv {
 
     private final String arcaAppId;
     private final String acquirerId;

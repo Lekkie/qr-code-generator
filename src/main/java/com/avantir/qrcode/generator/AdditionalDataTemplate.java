@@ -1,8 +1,10 @@
-package com.avantir.qrcode;
+package com.avantir.qrcode.generator;
+
+import com.avantir.qrcode.utils.StringUtils;
 
 import java.util.Map;
 
-public class AdditionalDataTemplate extends EmvTlv{
+public class AdditionalDataTemplate extends EmvTlv {
 
     private String billNumber;
     private String mobileNumber;

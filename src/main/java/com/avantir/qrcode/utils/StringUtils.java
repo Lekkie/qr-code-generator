@@ -1,4 +1,4 @@
-package com.avantir.qrcode;
+package com.avantir.qrcode.utils;
 
 public class StringUtils {
 
